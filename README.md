@@ -1,5 +1,5 @@
 # Clipboard History
-##### Track and save your clipboard history
+##### Track and save your clipboard history in your computer
 
 ---
 
