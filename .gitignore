@@ -133,3 +133,5 @@ dmypy.json
 .idea/
 test.py
 clipboard_data/
+# Ignore local files created by script
+*.txt
