@@ -128,10 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# System Files
+# Ignore local files created by script
 .idea
 .idea/
 test.py
 clipboard_data/
-# Ignore local files created by script
 *.txt
