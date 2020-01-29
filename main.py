@@ -1,11 +1,19 @@
+from functions import *
 from clipboard import *
 from time import sleep
 
-previous = ""
+create_folder(folder)
+chdir(folder)
 while True:
-    data = paste()
-    if data != previous:
-        print(data)
-        previous = data
-    else:
-        sleep(0.2)
+    file = create_file_dynamic()
+    previous = ""
+    count = 0
+    while count <= limit:
+        data = paste()
+        if data != previous:
+            append_file(file, data)
+            previous = data
+            count += 1
+        else:
+            sleep(0.2)
+
