@@ -1,9 +1,7 @@
 # Importing required modules
-from os import mkdir, chdir
-from variables import *
+from os import mkdir
+from variables import error_folder, dynamic_filename
 import datetime
-from clipboard import *
-from time import sleep
 
 
 # Function for creating new folder
