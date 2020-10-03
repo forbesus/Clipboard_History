@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.8
+
 from functions import *
 from clipboard import *
 from time import sleep

@@ -34,12 +34,10 @@ def create_file_dynamic(file=dynamic_filename):
 # Function for appending into file
 def append_file(file_name, data):
     f = open(file_name, "a")
-    my_data = f"\n------------------------------\n" \
-              f"DateTime: {get_datetime()}\n" \
-              f"------------------------------\n" \
-              f"Content: ---------------------\n" \
+    my_data = f"{get_datetime()}\n" \
+              f"------------------------------" \
               f"\n{data}\n" \
-              f"------------------------------\n"
+              f"_______________________________\n\n\n\n"
     f.write(f"{my_data}\n")
     f.close()
 
