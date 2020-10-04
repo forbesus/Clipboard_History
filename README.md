@@ -9,4 +9,3 @@ To Download code [CLICK HERE](https://github.com/JRudransh/Clipboard_History/arc
 OR Clone using command `git clone https://github.com/JRudransh/Clipboard_History.git` <br>
 Download & Run [`main.py`](https://github.com/JRudransh/Clipboard_History/blob/master/main.py) file <br>
 Before running that make sure you have installed all dipendencies via `pip install -r requirements.txt`
- 

@@ -4,7 +4,7 @@ python:
   - "3.8"
 
 install:
-  - pip install clipboard
+  - pip install -r requirements.txt
 
 script:
   - python main.py
