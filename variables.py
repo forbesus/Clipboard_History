@@ -1,7 +1,7 @@
 from time import time
 # Path for project file
 local_path = "/Documents/Python_Advance_Concept/Clipboard_History"
-git_path = "https://github.com/JRudransh/Clipboard_History"
+git_path = "https://github.com/luis960035/Clipboard_History"
 
 # Location variables
 folder = "clipboard_data"
